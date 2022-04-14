@@ -17,6 +17,6 @@ public class Test {
     public static void main(String[] args) {
         Test Fiesta = new Test("Fiesta", "white", 2008, true);
 
-        System.out.println("This car is a " + Fiesta.carYear + " from " + Fiesta.carYear + ". His color is " + Fiesta.carColor);
+        System.out.println("This car is a " + Fiesta.carName + " from " + Fiesta.carYear + ". His color is " + Fiesta.carColor);
     }
 }
