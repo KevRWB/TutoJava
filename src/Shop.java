@@ -1,3 +1,6 @@
+//Import Arrays methods from JAVA
+import java.util.Arrays;
+
 public class Shop {
 
     String shopName;
@@ -8,6 +11,10 @@ public class Shop {
     int ratingNumbers = 0;
     double shopRating;
     boolean validRate;
+
+    //Array test
+    String[] randomArray = {"Chat", "Chien", "Poussin"};
+    int[] randomNumbers = new int[5];
 
 
     //constructor
@@ -35,6 +42,18 @@ public class Shop {
         }
     }
 
+    public void printRandomArray(){
+        for (int i = 0; i < randomArray.length; i++){
+            System.out.println("An element of the random list : " + randomArray[i]);
+        }
+    }
+
+    public void addNumbersInRandomNumbers(int number){
+        int randomNumbersLength = randomNumbers.length;
+        randomNumbers[1] = number;
+        System.out.println("Longueur du tableau : " + randomNumbersLength);
+    }
+
 
     //Main method
 
@@ -42,8 +61,8 @@ public class Shop {
 
         //creating new Shops
         Shop playingForFun = new Shop("Play for fun", "games", "Martin Mystère", 666, true, 0);
-        Shop cookieShop = new Shop("The tasty Cookie", "cookies", "Maïte", 3, true, 0);
-        Shop potionShop = new Shop("Potions for all", "magic potions", "Henry Podbeurre", 33, false, 0);
+        Shop cookieShop = new Shop("The tasty Cookie", "cookies", "Maïte",  3, true, 0);
+        Shop potionShop = new Shop("Potions for all", "magic potions", "Henry Podbeurre",  33, false, 0);
         Shop sportWear = new Shop("La poule sportive", "sports wear", "Mickael Zidane", 23, true, 0);
 
         //creating Array with shops
@@ -60,8 +79,15 @@ public class Shop {
             System.out.println(shopsList[i]);
         }
 
-    }
+        //Test on printing ARRAYS
+        sportWear.printRandomArray();
+        System.out.println(Arrays.toString(playingForFun.randomArray));
 
+        //add numbers in randomNumbers ARRAY
+        sportWear.addNumbersInRandomNumbers(2);
+
+    }
+    //Create a String value for every Shop Class
     public String toString(){
         return "This shop is the \"" + shopName + "\". It sells " + itemsSold + " and it's owned by " + shopOwner + ". " +
                 "It has the number " + idNumber + " and it's rated " + shopRating + "/5. (number of rates: " + ratingNumbers + ")";
