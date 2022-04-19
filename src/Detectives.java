@@ -36,5 +36,10 @@ public class Detectives {
             int index = i+ 1;
             System.out.println("Number " + index  + ": " + sherlocksToDos.get(i));
         }
+
+        //Print size of Each item
+        for (String item : sherlocksToDos){
+           System.out.println(item.length());
+        }
     }
 }
