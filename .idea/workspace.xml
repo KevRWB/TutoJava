@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="add &quot;Shop&quot; class rating and printing methods">
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Test on ARRAYS">
+      <change afterPath="$PROJECT_DIR$/src/Detectives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playWithNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +43,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Shop">
+  <component name="RunManager" selected="Application.Detectives">
     <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BankAccount" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Detectives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Detectives" />
       <module name="TutoJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,8 +72,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addNumbers" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Detectives" />
+        <item itemvalue="Application.addNumbers" />
         <item itemvalue="Application.Shop" />
         <item itemvalue="Application.BankAccount" />
         <item itemvalue="Application.Test" />
@@ -108,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650011942272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test on ARRAYS">
+      <created>1650317625071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650317625071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +152,10 @@
     <MESSAGE value="New feature &quot;warning balance&quot;" />
     <MESSAGE value="Create new class &quot;Shop&quot; with rating method" />
     <MESSAGE value="add &quot;Shop&quot; class rating and printing methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &quot;Shop&quot; class rating and printing methods" />
+    <MESSAGE value="Test on ARRAYS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test on ARRAYS" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
