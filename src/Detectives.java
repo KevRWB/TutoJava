@@ -30,5 +30,11 @@ public class Detectives {
         // Print the name of the detective with the larger to-do list:
         System.out.println("Sherlocks to do list : " + sherlocksToDos + ". That makes " + sherlocksToDos.size() + " things to do.");
         System.out.println(poirotsToDos.size());
+
+        //Print evrey item of the list with a FOR loop
+        for (int i = 0; i < sherlocksToDos.size(); i ++ ){
+            int index = i+ 1;
+            System.out.println("Number " + index  + ": " + sherlocksToDos.get(i));
+        }
     }
 }
