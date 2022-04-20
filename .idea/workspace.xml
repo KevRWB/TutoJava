@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Test Methods dor ArrayList (.get() / .size() / .indexOf () / .remove() )">
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Play with Loops (For, while, For Each &amp; ArrayList)">
+      <change afterPath="$PROJECT_DIR$/src/CreateDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Refuge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Detectives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Detectives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playWithNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playWithNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.playWithNumbers">
-    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankAccount" />
-      <module name="TutoJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.myHouse">
     <configuration name="Detectives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Detectives" />
       <module name="TutoJava" />
@@ -57,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shop" />
+    <configuration name="Refuge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Refuge" />
       <module name="TutoJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,6 +60,13 @@
     </configuration>
     <configuration name="addNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addNumbers" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myHouse" />
       <module name="TutoJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myHouse" />
+        <item itemvalue="Application.Refuge" />
         <item itemvalue="Application.playWithNumbers" />
         <item itemvalue="Application.Detectives" />
         <item itemvalue="Application.addNumbers" />
-        <item itemvalue="Application.Shop" />
-        <item itemvalue="Application.BankAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650367113441</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Play with Loops (For, while, For Each &amp; ArrayList)">
+      <created>1650380381934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650380381934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +177,8 @@
     <MESSAGE value="Test on ARRAYS" />
     <MESSAGE value="Add numbers and detective class to test Arrays &amp; ArrayList" />
     <MESSAGE value="Test Methods dor ArrayList (.get() / .size() / .indexOf () / .remove() )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Methods dor ArrayList (.get() / .size() / .indexOf () / .remove() )" />
+    <MESSAGE value="Play with Loops (For, while, For Each &amp; ArrayList)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Play with Loops (For, while, For Each &amp; ArrayList)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
