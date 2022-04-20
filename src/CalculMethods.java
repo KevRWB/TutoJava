@@ -1,4 +1,9 @@
+import java.util.ArrayList;
+
 public class CalculMethods {
+
+    ArrayList <Integer> randomIntegerList = new ArrayList<>();
+
 
     CalculMethods (){
 
@@ -16,23 +21,30 @@ public class CalculMethods {
     public static void main (String[] args){
         CalculMethods newCalculMethod = new CalculMethods();
 
+        //create ArrayList of 30 random int from 1 to 10
         int numOne = newCalculMethod.random1To10();
         int count = 1;
 
-        while (numOne != 5 && count < 30){
-            System.out.println(numOne);
+        while (count <= 30){
+            newCalculMethod.randomIntegerList.add(numOne);
             numOne = newCalculMethod.random1To10();
             count ++;
         }
 
-        double numTwo = newCalculMethod.random0To10();
-        int count2 = 1;
-
-        while (numTwo != 5 && count2 < 30){
-            System.out.println(count2 + " : " + numTwo);
-            numTwo = newCalculMethod.random0To10();
-            count2 ++;
+        //!!!!!!!!!!!!!!!!count the number of the smallest value // FIX THIS METHOD !!!!!!!!!!!!!!!!!!!!!
+        int countMin = 0;
+        int minNum = 0;
+        for (int i = 0; i < newCalculMethod.randomIntegerList.size(); i++){
+            int num = newCalculMethod.randomIntegerList.get(i);
+            if(num <= minNum){
+                minNum = num;
+                countMin ++;
+            }
         }
+
+        System.out.println("This Array list contain " + newCalculMethod.randomIntegerList.size() + " items.");
+        System.out.println(newCalculMethod.randomIntegerList);
+        System.out.println("The minimum number is " + minNum + " and it occurs " + countMin + " times");
 
     }
 }

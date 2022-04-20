@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Play with Loops (For, while, For Each &amp; ArrayList)">
-      <change afterPath="$PROJECT_DIR$/src/CalculMethods.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Testing Math() static method - Random()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650380381934</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing Math() static method - Random()">
+      <created>1650460596697</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650460596697</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +183,8 @@
     <MESSAGE value="Add numbers and detective class to test Arrays &amp; ArrayList" />
     <MESSAGE value="Test Methods dor ArrayList (.get() / .size() / .indexOf () / .remove() )" />
     <MESSAGE value="Play with Loops (For, while, For Each &amp; ArrayList)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Play with Loops (For, while, For Each &amp; ArrayList)" />
+    <MESSAGE value="Testing Math() static method - Random()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Math() static method - Random()" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
