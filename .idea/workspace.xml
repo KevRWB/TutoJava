@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Create FizzBuzz Class">
-      <change afterPath="$PROJECT_DIR$/src/PrimeDirective.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Class PrimeDirective&#10;To check if number is prime">
+      <change beforePath="$PROJECT_DIR$/src/playWithNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playWithNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650547399032</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Class PrimeDirective&#10;To check if number is prime">
+      <created>1650549367251</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650549367251</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +237,8 @@
     <MESSAGE value="Create Continent Class" />
     <MESSAGE value="Create Playlist Class" />
     <MESSAGE value="Create FizzBuzz Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create FizzBuzz Class" />
+    <MESSAGE value="Class PrimeDirective&#10;To check if number is prime" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class PrimeDirective&#10;To check if number is prime" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
