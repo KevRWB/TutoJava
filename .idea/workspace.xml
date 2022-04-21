@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Testing Math() static method - Random()">
-      <change afterPath="$PROJECT_DIR$/src/BasicCalcul.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Create BasicCalcul Class">
+      <change afterPath="$PROJECT_DIR$/src/Droid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BasicCalcul">
+  <component name="RunManager" selected="Application.Droid">
     <configuration name="BasicCalcul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicCalcul" />
       <module name="TutoJava" />
@@ -50,6 +50,13 @@
     </configuration>
     <configuration name="CalculMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculMethods" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Droid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Droid" />
       <module name="TutoJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,21 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="playWithNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playWithNumbers" />
-      <module name="TutoJava" />
-      <option name="PROGRAM_PARAMETERS" value="12 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Droid" />
         <item itemvalue="Application.BasicCalcul" />
         <item itemvalue="Application.CalculMethods" />
         <item itemvalue="Application.myHouse" />
         <item itemvalue="Application.Refuge" />
-        <item itemvalue="Application.playWithNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650460596697</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create BasicCalcul Class">
+      <created>1650537177676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650537177676</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +189,8 @@
     <MESSAGE value="Test Methods dor ArrayList (.get() / .size() / .indexOf () / .remove() )" />
     <MESSAGE value="Play with Loops (For, while, For Each &amp; ArrayList)" />
     <MESSAGE value="Testing Math() static method - Random()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Math() static method - Random()" />
+    <MESSAGE value="Create BasicCalcul Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create BasicCalcul Class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
