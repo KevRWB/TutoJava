@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Create Droid Class">
-      <change afterPath="$PROJECT_DIR$/src/CarLoan.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Create CarLoan Class">
+      <change afterPath="$PROJECT_DIR$/src/Continents.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CarLoan">
+  <component name="RunManager" selected="Application.Continents">
     <configuration name="BasicCalcul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicCalcul" />
       <module name="TutoJava" />
@@ -62,6 +62,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Continents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Continents" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Droid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Droid" />
       <module name="TutoJava" />
@@ -69,20 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myHouse" />
-      <module name="TutoJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Continents" />
         <item itemvalue="Application.CarLoan" />
         <item itemvalue="Application.Droid" />
         <item itemvalue="Application.BasicCalcul" />
         <item itemvalue="Application.CalculMethods" />
-        <item itemvalue="Application.myHouse" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650538507688</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Create CarLoan Class">
+      <created>1650541862090</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650541862090</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +205,8 @@
     <MESSAGE value="Testing Math() static method - Random()" />
     <MESSAGE value="Create BasicCalcul Class" />
     <MESSAGE value="Create Droid Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Droid Class" />
+    <MESSAGE value="Create CarLoan Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create CarLoan Class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
