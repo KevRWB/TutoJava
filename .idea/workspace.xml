@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Complete PrimeDirective Class">
-      <change afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="DNA test class">
+      <change afterPath="$PROJECT_DIR$/src/ObjAsParameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrimeDirective">
-    <configuration name="CarLoan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarLoan" />
-      <module name="TutoJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ObjAsParameter">
     <configuration name="Continents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Continents" />
       <module name="TutoJava" />
@@ -57,6 +50,13 @@
     </configuration>
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjAsParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjAsParameter" />
       <module name="TutoJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjAsParameter" />
         <item itemvalue="Application.PrimeDirective" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Playlist" />
         <item itemvalue="Application.Continents" />
-        <item itemvalue="Application.CarLoan" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650550471276</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="DNA test class">
+      <created>1650553024497</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650553024497</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +260,8 @@
     <MESSAGE value="Create FizzBuzz Class" />
     <MESSAGE value="Class PrimeDirective&#10;To check if number is prime" />
     <MESSAGE value="Complete PrimeDirective Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete PrimeDirective Class" />
+    <MESSAGE value="DNA test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="DNA test class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
