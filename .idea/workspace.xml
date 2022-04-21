@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Create CarLoan Class">
-      <change afterPath="$PROJECT_DIR$/src/Continents.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Create Continent Class">
+      <change afterPath="$PROJECT_DIR$/src/Playlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +40,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Continents">
+  <component name="RunManager" selected="Application.Playlist">
     <configuration name="BasicCalcul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicCalcul" />
-      <module name="TutoJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculMethods" />
       <module name="TutoJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Playlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Playlist" />
+      <module name="TutoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Playlist" />
         <item itemvalue="Application.Continents" />
         <item itemvalue="Application.CarLoan" />
         <item itemvalue="Application.Droid" />
         <item itemvalue="Application.BasicCalcul" />
-        <item itemvalue="Application.CalculMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650541862090</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create Continent Class">
+      <created>1650542635338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650542635338</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +213,8 @@
     <MESSAGE value="Create BasicCalcul Class" />
     <MESSAGE value="Create Droid Class" />
     <MESSAGE value="Create CarLoan Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create CarLoan Class" />
+    <MESSAGE value="Create Continent Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Continent Class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
