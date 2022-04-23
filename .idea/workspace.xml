@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Monsters and Zombie class to test inheritence and polymorphysm">
-      <change afterPath="$PROJECT_DIR$/src/Creeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MonsterAction.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="MonsterAction Class&#10;Creeper Class">
+      <change afterPath="$PROJECT_DIR$/src/ArraysMajorOrders/RowMajorOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zombie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/Team Reno/IdeaProjects/EpicGame",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Team Reno/IdeaProjects/EpicGame&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Monster">
+}</component>
+  <component name="RunManager" selected="Application.RowMajorOrder">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="TutoJava" />
@@ -67,13 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Playlist" />
-      <module name="TutoJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrimeDirective" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeDirective" />
       <module name="TutoJava" />
@@ -81,13 +73,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RowMajorOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysMajorOrders.RowMajorOrder" />
+      <module name="TutoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysMajorOrders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RowMajorOrder" />
         <item itemvalue="Application.Monster" />
         <item itemvalue="Application.ObjAsParameter" />
         <item itemvalue="Application.PrimeDirective" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.Playlist" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650624942056</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="MonsterAction Class&#10;Creeper Class">
+      <created>1650649442694</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650649442694</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +301,8 @@
     <MESSAGE value="DNA test class" />
     <MESSAGE value="Test Objects as parameters for functions" />
     <MESSAGE value="Monsters and Zombie class to test inheritence and polymorphysm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monsters and Zombie class to test inheritence and polymorphysm" />
+    <MESSAGE value="MonsterAction Class&#10;Creeper Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="MonsterAction Class&#10;Creeper Class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

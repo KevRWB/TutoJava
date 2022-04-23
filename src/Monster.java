@@ -9,17 +9,17 @@ public class Monster extends MonsterAction{
     String type;
     String name;
     int health;
-    int att;
+    int attack;
     int speed;
     int initiative;
     int moral;
 
     //Constructor for Monster
-    public Monster(String type, String name, int health, int att, int speed, int initiative, int moral){
+    public Monster(String type, String name, int health, int attack, int speed, int initiative, int moral){
         this.type = type;
         this.name = name;
         this.health = health;
-        this.att = att;
+        this.attack = attack;
         this.speed = speed;
         this.initiative = initiative;
         this.moral = moral;
@@ -33,15 +33,15 @@ public class Monster extends MonsterAction{
 
     //Main method
     public static void main(String[] args){
-        //create a new Creeper (Monster --> Zombie)
-        Creeper creeperOne = new Creeper();
-        //Print creeperOne attributes
-        System.out.println(creeperOne);
+        //create a new Walker (Monster --> Zombie)
+        Walker walkerOne = new Walker();
+        //Print walkerOne attributes
+        System.out.println(walkerOne);
 
-        //Make "fall" creeperOne
-        creeperOne.fall(creeperOne);
-        //Raise creeperOne
-        creeperOne.raise();
+        //Make "fall" walkerOne
+        walkerOne.fall(walkerOne);
+        //Raise walkerOne
+        walkerOne.raise();
 
 
     }
@@ -50,7 +50,7 @@ public class Monster extends MonsterAction{
     //toString method to print Monster(s) attributes
     public String toString(){
         return "This monster is a " + this.name + ". Type : " + this.type + ", Health : " + this.health +
-                ", Att : " + this.att + ", Speed : " + this.speed + ", Initiative : " + this.initiative +
+                ", Att : " + this.attack + ", Speed : " + this.speed + ", Initiative : " + this.initiative +
                 ", Moral : " + this.moral;
     }
 }
