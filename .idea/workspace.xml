@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="MonsterAction Class&#10;Creeper Class">
-      <change afterPath="$PROJECT_DIR$/src/ArraysMajorOrders/RowMajorOrder.java" afterDir="false" />
+    <list default="true" id="a81c5eac-85cf-4b20-9adf-b2069555932d" name="Changes" comment="Crate ArraysMajorOrders Package &amp; RowMajorOrder Class (test)">
+      <change afterPath="$PROJECT_DIR$/src/ArraysMajorOrders/ColumnMajorOrders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="27l6arQWDIglHPvCKcs9Bc6qse5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,10 +45,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RowMajorOrder">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
+  <component name="RunManager" selected="Application.ColumnMajorOrders">
+    <configuration name="ColumnMajorOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysMajorOrders.ColumnMajorOrders" />
       <module name="TutoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysMajorOrders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColumnMajorOrders" />
         <item itemvalue="Application.RowMajorOrder" />
         <item itemvalue="Application.Monster" />
         <item itemvalue="Application.ObjAsParameter" />
         <item itemvalue="Application.PrimeDirective" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650649442694</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Crate ArraysMajorOrders Package &amp; RowMajorOrder Class (test)">
+      <created>1650736050802</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650736050802</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +316,8 @@
     <MESSAGE value="Test Objects as parameters for functions" />
     <MESSAGE value="Monsters and Zombie class to test inheritence and polymorphysm" />
     <MESSAGE value="MonsterAction Class&#10;Creeper Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="MonsterAction Class&#10;Creeper Class" />
+    <MESSAGE value="Crate ArraysMajorOrders Package &amp; RowMajorOrder Class (test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crate ArraysMajorOrders Package &amp; RowMajorOrder Class (test)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TutoJava$addNumbers.ic" NAME="addNumbers Coverage Results" MODIFIED="1650361833792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
